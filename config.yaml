@@ -19,4 +19,4 @@ OUTPUT_DIRECTORIES:
   10: ./Output/10
 
 FILE_FORMAT:
-  Default: csv
+  Output: csv
