@@ -30,14 +30,18 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/knsailakshmi/car-crash-analysis.git
-   cd car-crash-analysis
+   git clone https://github.com/knsailakshmi/VehicleCrashAnalysis.git
+   
 2. **Navigate to Project Directory**
    Go to the Project Directory:
     ```bash
     $ cd VehicleCrashAnalysis
-3.  **Build and Setup**
-   On terminal, run python setup.py bdist_egg to create .egg file. [RUN in terminal: pip install setuptools, pip install build - if not installed]
+   
+3. **Build and Setup**
+     On the terminal, run the following command to create the `.egg` file:
+   ```bash
+   python setup.py bdist_egg
+
 4.  **Execution**
     ```bash
     spark-submit --master "local[*]" --py-files dist/VehicleAccidentAnalysis-0.0.1-py3.9.egg main.py and get the output in Terminal as well as in Output Folder. [Edit your version of Python] 
