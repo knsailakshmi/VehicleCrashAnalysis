@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print(
         "Q 1:",
         analysis.male_driver_crashes(
-            output_file_paths.get(1), file_format.get("Output")
+            output_file_paths.get("analysis_1"), file_format.get("Output")
         )
     )
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     print(
         "Q 2:",
         analysis.motorcycle_crashes(
-            output_file_paths.get(2), file_format.get("Output")
+            output_file_paths.get("analysis_2"), file_format.get("Output")
         ),
     )
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     print(
         "Q 3:",
         analysis.top_brands_in_fatal_crashes(
-            output_file_paths.get(3), file_format.get("Output")
+            output_file_paths.get("analysis_3"), file_format.get("Output")
         ),
     )
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     print(
         "Q 4:",
         analysis.count_hit_and_run_crashes(
-            output_file_paths.get(4), file_format.get("Output")
+            output_file_paths.get("analysis_4"), file_format.get("Output")
         ),
     )
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     print(
         "Q 5:",
         analysis.states_with_no_female_involvement(
-            output_file_paths.get(5), file_format.get("Output")
+            output_file_paths.get("analysis_5"), file_format.get("Output")
         ),
     )
 
@@ -62,21 +62,21 @@ if __name__ == "__main__":
     print(
         "Q 6:",
         analysis.top_vehicle_ids_by_injuries(
-            output_file_paths.get(6), file_format.get("Output")
+            output_file_paths.get("analysis_6"), file_format.get("Output")
         ),
     )
 
     # 7. For each vehicle body style, determine the top ethnic group involved in crashes
     print("Q 7:")
     analysis.top_ethnicities_by_vehicle_body_style(
-        output_file_paths.get(7), file_format.get("Output")
+        output_file_paths.get("analysis_7"), file_format.get("Output")
     ).show(truncate=False)
 
     # 8. Find the top 5 zip codes with the highest number of crashes where alcohol was a contributing factor
     print(
         "Q 8:",
         analysis.zip_codes_with_alcohol_involvement(
-            output_file_paths.get(8), file_format.get("Output")
+            output_file_paths.get("analysis_8"), file_format.get("Output")
         ),
     )
 
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     print(
         "Q 9:",
         analysis.count_crashes_with_no_damage(
-            output_file_paths.get(9), file_format.get("Output")
+            output_file_paths.get("analysis_9"), file_format.get("Output")
         ),
     )
 
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print(
         "Q 10:",
         analysis.top_5_vehicle_speeding_offenses(
-            output_file_paths.get(10), file_format.get("Output")
+            output_file_paths.get("analysis_10"), file_format.get("Output")
         ),
     )
 

@@ -7,16 +7,16 @@ INPUT_FILES:
   Units: Data/Units_use.csv
 
 OUTPUT_DIRECTORIES:
-  1: ./Output/1
-  2: ./Output/2
-  3: ./Output/3
-  4: ./Output/4
-  5: ./Output/5
-  6: ./Output/6
-  7: ./Output/7
-  8: ./Output/8
-  9: ./Output/9
-  10: ./Output/10
+  analysis_1: ./Output/1_male_driver_crashes
+  analysis_2: ./Output/2_motorcycle_crashes
+  analysis_3: ./Output/3_top_brands_in_fatal_crashes
+  analysis_4: ./Output/4_count_hit_and_run_crashes
+  analysis_5: ./Output/5_states_with_no_female_involvement
+  analysis_6: ./Output/6_top_vehicle_ids_by_injuries
+  analysis_7: ./Output/7_top_ethnicities_by_vehicle_body_style
+  analysis_8: ./Output/8_zip_codes_with_alcohol_involvement
+  analysis_9: ./Output/9_count_crashes_with_no_damage
+  analysis_10: ./Output/10_top_5_vehicle_speeding_offenses
 
 FILE_FORMAT:
   Output: csv
