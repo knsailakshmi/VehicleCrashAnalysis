@@ -11,7 +11,7 @@ if __name__ == "__main__":
     config_file_name = "config.yaml"
     config = load_yaml_config(config_file_name)
 
-    # Extract output file paths and file format from config
+    # Extract output file path and file format from config
     output_file_paths = config.get("OUTPUT_DIRECTORIES")
     file_format = config.get("FILE_FORMAT")
 
